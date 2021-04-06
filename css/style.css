@@ -16,11 +16,27 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+h3 {
+  font-size: 22px;
+}
+
+body {
+  background-color: #f3f4f5;
+}
+
 p {
   font-family: "Nunito", sans-serif;
   font-size: 20px;
   line-height: 30px;
   color: #6c757d;
+}
+
+a {
+  color: #6c757d;
+}
+
+a:hover {
+  color: black;
 }
 
 .r-btn {
@@ -158,6 +174,26 @@ nav.stickyadd .hamburger {
 .r-p {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+/* nav for side pages */
+nav.r-nav.dark {
+  background: none;
+  padding: 15px 0;
+  transition: 0.5s all ease-in-out;
+}
+
+nav.dark .navbar-brand {
+  color: black;
+  transition: 0.5s all;
+}
+
+nav.dark .navbar-nav .nav-link {
+  color: black !important;
+}
+
+nav.dark .hamburger {
+  color: black;
 }
 
 /* header */
