@@ -1,26 +1,26 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-    $(window).on('load', function(){
+    $(window).on('load', function () {
         $('.preloader').addClass('complete');
     });
 
-    $(window).on('scroll',function() {
+    $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
-        if(scroll >= 50) {
+        if (scroll >= 50) {
             $(".sticky").addClass("stickyadd");
         } else {
             $(".sticky").removeClass("stickyadd");
         }
     })
 
-    var typed = new Typed(".element",{
-        strings: ["Riley Bergamasco", "a Designer", "a Developer", "a Student"],
-        smartBackspace:true,
-        typeSpeed:100,
-        backSpeed:100,
-        loop:true,
-        loopCount:Infinity,
-        startDelay:1000
+    var typed = new Typed(".element", {
+        strings: ["Riley Bergamasco", "a Developer", "a Designer"],
+        smartBackspace: true,
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+        loopCount: Infinity,
+        startDelay: 1000
     });
 
     // progress bars - skills
@@ -52,7 +52,7 @@ $(document).ready(function() {
     // work section
 
     var filterizd = $('.filter-container').filterizr({
-        animationDuration : .5
+        animationDuration: .5
     });
-      
+
 });
