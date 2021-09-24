@@ -273,6 +273,10 @@ header {
 
 /* about section*/
 
+.about {
+  max-width: 1000px;
+}
+
 .about li a {
   color: black;
   display: inline-block;
